@@ -1,0 +1,60 @@
+11-06-2025
+--------------
+                        HTML - Hyper Text markup language
+                        ----------------------------------
+
+basic Html Tags:
+---------------------
+	Heading tags from largest (<h1>) to smallest (<h6>)
+		<h1></h1> - heading tag -1
+		<h2></h2> - heading tag -2
+		<h3></h3> - heading tag -3
+		<h4></h4> - heading tag -4	
+		<h5></h5> - heading tag -5
+		<h6></h6> - heading tag -6
+
+formatting Html Tags:
+---------------------
+		<b></b> --> bold tag ==>Makes text bold
+		<i></i> --> italic tag ==> makes text italic
+		<u></u> --> underline tag ==> underlines the text
+		<strike></strike> --> strike tag ==> strikes through the text
+		<tt></tt> --> mono space tag ==> monospaced(typewriter-style) text
+		<sup></sup> --> superscript tag ==> x²
+		<sub></sub> --> subscript tag ==> H₂O
+		<ins></ins> --> insert tag ==>Inserted text (underlined)
+		<del></del> --> deleted tag ==> Deleted text (struck through)
+		<big></big> --> big tag ==> Makes text one size larger
+		<small></small> --> smaller tag ==> Makes text one size smaller
+
+pharse tag
+-------------
+		<em></em> --> emphasized tag ==> Emphasized (italic by default)
+		<mark></mark> --> marked tag ==> Highlights or marks text
+		<strong></strong> --> strong tag ==> bold by default
+		<abbr></abbr> --> abbrevsiation tag ==>Defines an abbreviation;
+		<bdo dir="ltr"></bdo> --> text direction (left to right)
+		<bdo dir="rtl"> </bdo> --> text direction (right to left)
+		<blockquote></blockquote> --> quating tag ==>Large block quotation
+		<q></q> --> quation tag ==> Short inline quote
+		<cite></cite> --> citation tag ==> (usually italic)
+		<code></code> --> computet code tag ==> Displays computer code(monospaced font)
+		<kbd></kbd> --> keyborad tag ==> Represents keyboard input
+		<samp></samp> --> program tag ==> Represents sample output from a computer program
+		<address></address> --> address tag==> 	Defines contact information, usually shown in italic
+
+Similar tags and realated tags
+=================================
+--------------------------------------------------------------------------
+1) <b>, <strong> 	
+--------------------------------------------------------------------------
+2) <i>, <em>, <cite>
+--------------------------------------------------------------------------
+3) <u>, <ins>		
+--------------------------------------------------------------------------
+4) <strike>, <del>
+--------------------------------------------------------------------------
+5) <tt>	, <code>, <kbd>, <samp>	
+--------------------------------------------------------------------------
+6) <blockquote>, <q>
+--------------------------------------------------------------------------
