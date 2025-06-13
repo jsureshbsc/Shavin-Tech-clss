@@ -58,3 +58,33 @@ Similar tags and realated tags
 --------------------------------------------------------------------------
 6) <blockquote>, <q>
 --------------------------------------------------------------------------
+
+12-06-2025
+===========
+
+image tag 
+-----------
+		<img src="" alt="img">
+	height and width
+	--------------------
+		<img src="" alt="img"  width="" height="" border="" align="center">
+	image fig caption
+	------------------
+	<img src="" width="" height="">
+	<figcaption>   </figcaption>
+
+file upload
+-------------
+  <input type="file" name="upload file">
+
+drop down
+-----------
+	<select name="" id="">
+
+	<sl
+fname
+lname
+image
+imagename
+fileupload
+dropdown couse
