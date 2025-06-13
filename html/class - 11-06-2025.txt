@@ -79,9 +79,13 @@ file upload
 
 drop down
 -----------
-	<select name="" id="">
-
-	<sl
+	<select name="course" id="course">
+        <option value="select">select course</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="HTML">HTML</option>
+        <option value="JavaScript">Javascript</option>
+    </select>
 fname
 lname
 image
