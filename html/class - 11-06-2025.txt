@@ -86,9 +86,11 @@ drop down
         <option value="HTML">HTML</option>
         <option value="JavaScript">Javascript</option>
     </select>
+
+task -1(12/06/25)
 fname
 lname
 image
 imagename
 fileupload
-dropdown couse
+dropdown course
