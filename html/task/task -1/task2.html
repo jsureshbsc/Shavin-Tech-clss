@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Admission Form</title>
+</head>
+
+
+
+
+
+<body>
+
+  <form align="center" style=" padding: 20px; width: 400px; margin: auto;">
+    <fieldset>
+        <legend><h2>College Application form</h2></legend>
+    <input type="text" name="fullname" placeholder="Full Name" required><br><br>
+
+    <input type="password" name="password" placeholder="password" required><br><br>
+
+    <input type="email" name="email" placeholder="Email ID" required><br><br>
+    
+    <input type="tel" name="phone" placeholder="Phone Number" required><br><br>
+
+    <input type="number" name="percentage" placeholder="10th Percentage"><br><br>
+    
+    <select name="course_select" required>
+    <option value="">Select Course</option>
+      <option value="bsc">B.Sc </option>
+      <option value="bca">BCA</option>
+      <option value="bcom">B.Com</option>
+      <option value="ba">BA </option>
+    </select><br><br>
+    <input type="search" name="stream" placeholder="Search Your Stream"><br><br>
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob"  ><br><br>
+
+    <label>Preferred Interview Time:</label><br>
+    <input type="time" name="interview_time"><br><br>
+
+    <label>Upload Marksheet (PDF):</label><br>
+    <input type="file" name="marksheet"><br><br>
+
+
+    <label>Rate Your Computer Knowledge (1 to 10):</label><br>
+    <input type="range" name="skill" min="1" max="10"><br><br>
+    
+    <textarea name="reason" rows="4" cols="30" placeholder="Why do you want to join this college?"></textarea><br><br>
+    
+
+    <label>
+      <input type="checkbox" name="terms"> I agree to the terms and conditions
+    </label>
+    
+    <p><i>Note <sup style="color: red;">*</sup></i>
+        <tt>
+           : This is a college application form created using HTML. 
+        It includes various input types such as <b>text, password, email, telephone, number, date, time, file upload, range, and search.</b> 
+        The form also uses a <b>dropdown menu to select a course, a checkbox</b> to agree to terms and conditions, 
+        and a <b>textarea to type</b> a reason for joining the college. All form fields are grouped using the fieldset
+        tag, and the <b>form is submitted using the submit button</b>. 
+        </tt>
+</p>
+
+
+    <input type="submit" value="Submit Application">
+</fieldset>
+  </form>
+
+</body>
+</html>

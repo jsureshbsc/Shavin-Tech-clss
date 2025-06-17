@@ -94,3 +94,19 @@ image
 imagename
 fileupload
 dropdown course
+
+16-06-2025
+==========
+1) <input type="text"> – Used to enter plain text, like a name.
+2) <input type="password"> – Used to enter a password; the characters are hidden.
+3) <input type="email"> – Used to enter an email address; checks for correct format.
+4) <input type="checkbox"> – Used to select one or more options (true/false).
+5) <input type="file"> – Allows the user to upload a file (PDF, image, etc.).
+6) <input type="number"> – Used to enter numeric values only.
+7) <input type="range"> – Creates a slider to select a value within a range.
+8) <input type="search"> – Used to enter search text; usually adds a clear (X) button.
+9) <input type="tel"> – Used to enter phone numbers.
+10) <input type="date"> – Allows users to pick a date from a calendar.
+11) <input type="time"> – Allows users to select a time.
+12) <textarea> – Used for entering multi-line text like comments or explanations.
+13) <input type="submit"> – Sends the form data to the server when clicked.
