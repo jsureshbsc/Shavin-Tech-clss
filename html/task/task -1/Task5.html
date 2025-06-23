@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suresh PhotoGraphy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fffbd8;
+    }
+
+    .header {
+      background:  #ff69b4;
+      padding: 20px;
+      text-align: center;
+      font-size: 36px;
+      color: #ebe2e2;
+      font-style: italic;
+      border-radius: 25px 0 25px 0;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #d7dc11;
+      border-radius: 25px 0 25px 0;
+    }
+
+    .navbar a {
+    
+      padding: 15px 25px;
+      text-decoration: none;
+      color: #f0f0f0;
+      font-weight: bold;
+      margin: 10px;
+      background-color: #ff69b4;
+      border-radius: 15px 0 15px 0;
+    }
+
+    .navbar a:hover {
+      background-color: pink;
+      color: #222;
+    }
+
+    .image-section {
+      background-position: center;
+      height: 400px;
+      position: relative;
+      
+    }
+
+    .image {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      height: 350px;
+      width: 550px;
+      border-radius: 55px 0 55px 0;
+    }
+
+    .image2 {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+       height: 350px;
+      width: 550px;
+      border-radius: 0 55px 0 55px;
+    }
+
+    .welcome {
+      padding: 45px;
+      color: #443a3a;
+    }
+
+    .welcome h2 {
+      font-family: 'Georgia', serif;
+      color: rgb(10, 10, 9);
+      font-size: 28px;
+    }
+
+    .welcome p,li{
+      font-size: 16px;
+      color: blueviolet;
+    }
+
+ 
+    .pricetable{
+          padding: 45px;
+    }
+    .pricetable table{
+        text-align: center;
+        margin-left: 60px;
+    }
+    .booking{
+        padding: 45px;
+    }
+    .booking form input,select,textarea{
+    width: 100%; 
+    padding: 8px;
+    }
+       .footer {
+      background-color: #e1d6d6;
+      color: rgb(7, 5, 5);
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    Suresh Creative Studio
+  </div>
+
+  <div class="navbar">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">SERVICES</a>
+    <a href="#">LOCATION</a>
+    <a href="#">CONTACT US</a>
+  </div>
+
+  <div class="image-section">
+    <img src="../images/task-4 image 2.jpg" class="image"> 
+    <img src="../images/task-4 image.jpg" class="image2"> 
+  </div>
+
+  <div class="welcome">
+    <h2>Welcome to Suresh Creative Studio</h2>
+    <p>Artistry by Suresh is where passion meets paint. Since 2015, we’ve been transforming blank canvases into expressive masterpieces, offering a space for both budding and professional artists.</p>
+    <p>We offer:
+        <ul>
+            <li>Custom canvas paintings (portrait, abstract, landscape)</li>
+            <li>Live wedding & event painting</li>
+            <li>Weekly group art workshops</li>
+            <li>Personalized art gifting services</li>
+        </ul>
+    </p>
+  </div>
+  <div class="pricetable">
+    <h2>Our Services & Pricing</h2>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 80%;">
+  <thead style="background-color: #f2b4d3;">
+    <tr>
+      <th>Service</th>
+      <th>Description</th>
+      <th>Price (INR)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Custom Canvas Paintings</td>
+      <td>Portraits, abstract, or landscapes on custom sizes</td>
+      <td>₹2,000 - ₹10,000</td>
+    </tr>
+    <tr>
+      <td>Live Wedding & Event Painting</td>
+      <td>On-the-spot painting of live events</td>
+      <td>₹15,000 - ₹30,000</td>
+    </tr>
+    <tr>
+      <td>Group Art Workshops</td>
+      <td>Weekly classes (beginner to intermediate)</td>
+      <td>₹500 per session</td>
+    </tr>
+    <tr>
+      <td>Personalized Art Gifts</td>
+      <td>Custom name plates, greeting cards, mini canvases</td>
+      <td>₹300 - ₹2,000</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <div class="booking">
+    <h2> Pre-Booking Form</h2>
+<form style="background-color: #fffbd8;margin-left: 85px; padding: 20px; width: 70%;">
+  <label for="name"><strong>Name:</strong></label><br>
+  <input type="text"  name="name" required ><br><br>
+
+  <label for="email"><strong>Email:</strong></label><br>
+  <input type="email"  name="email" required><br><br>
+
+  <label for="phone"><strong>Phone Number:</strong></label><br>
+  <input type="tel"  name="phone" required ><br><br>
+
+  <label for="service"><strong>Select Service:</strong></label><br>
+  <select  name="service" >
+    <option value="">😃  select the event...😊</option>
+    <option value="canvas">Custom Canvas Paintings</option>
+    <option value="live-painting">Live Wedding & Event Painting</option>
+    <option value="workshop">Group Art Workshop</option>
+    <option value="gift">Personalized Art Gifts</option>
+  </select><br><br>
+
+  <label for="date"><strong>Preferred Date:</strong></label><br>
+  <input type="date" id="date" name="date" required ><br><br>
+
+  <label for="message"><strong>Additional Notes:</strong></label><br>
+  <textarea id="message" name="message" rows="4" ></textarea><br><br>
+
+  <button type="submit" style="padding: 10px 20px; background-color: #e91e63; color: white; ">Submit </button>
+</form>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Natalia's Natural Way. All Rights Reserved.<br>
+    Design & Developed by: KDM - Web Design Sandbox
+  </div>
+  
+
+</body>
+</html>

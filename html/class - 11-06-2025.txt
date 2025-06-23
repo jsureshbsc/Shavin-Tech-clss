@@ -110,3 +110,36 @@ dropdown course
 11) <input type="time"> – Allows users to select a time.
 12) <textarea> – Used for entering multi-line text like comments or explanations.
 13) <input type="submit"> – Sends the form data to the server when clicked.
+
+19-06-2025
+=============
+<a> ==> anchor tag
+--------------------------------------------------
+<a href=" link" target="_blank" >link name</a>
+
+href="" --> it is a URL to Link to.
+target="_blank"--> opens link in the new tab
+target="_parent" --> opens that link in parent frame
+target="_self" --> opens link in the same tab
+target="_top" --> opens in the full body of the window breaking out of frames.
+mailto--> Opens the user’s email app to send an email.
+
+<div> Tag ==> division tag
+---------------------------
+<div style="inline ">div tag</div> -->a block-level container used to group HTML elements together
+
+<span> ==> span tag -->is an inline container used to apply style or scripting to a small part of text inside a paragraph or heading
+
+<ol> & <ul> & <li> - ordered and unorderd lists
+----------------------------------------------------
+<ol> --> ordered list(1, A,a, I, i,) example(<ol type="I">)
+<ul> --> unorderd(disc, circle, square, none) example(<ul style="list-style-type: circle;">)
+<li> --> List item
+
+<table>--table tag
+===================
+<tr> --> table row
+<td> --> table cell
+<thead>--> table head
+<th> --> table heading cell
+<tbody> --> table body
